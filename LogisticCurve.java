@@ -1,5 +1,3 @@
-package tools;
-
 /**
  * This class will evaluate a point on a specified logistic curve.<br>
  * Optionally, a value for an x-intercept can be given so that the curve can go below zero.
