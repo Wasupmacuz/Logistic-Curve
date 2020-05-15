@@ -43,7 +43,7 @@ public class LogisticCurve
 		this.midVal = midVal;
 		
 		yOffset = eval(xIntercept); // Computing the y offset now that the necessary variables are set
-		this.maxVal += yOffset; // reevaluating the maximum value with the new y offset
+		this.maxVal -= yOffset; // reevaluating the maximum value with the new y offset
 	}
 
 	/**
