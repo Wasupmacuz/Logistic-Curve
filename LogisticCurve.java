@@ -59,7 +59,7 @@ public class LogisticCurve
 	 */
 	public float eval(float x)
 	{
-		float val = maxVal/(1 + (float)Math.pow(Math.E, (inverted ? -1 : 1)*slopeVal*(x - midVal))) - yOffset;
+		float val = maxVal/(1 + (float)Math.pow(Math.E, (inverted ? 1 : -1)*slopeVal*(x - midVal))) - yOffset;
 		return val;
 	}
 }
